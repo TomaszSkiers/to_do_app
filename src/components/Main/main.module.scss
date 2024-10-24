@@ -1,0 +1,10 @@
+.container{
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #333;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}

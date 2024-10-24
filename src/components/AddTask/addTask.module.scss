@@ -1,0 +1,54 @@
+.container {
+  box-sizing: border-box;
+  margin: 20px 20px 0px 20px;
+  width: calc(100% - 40px);
+  height: 100px;
+  border: 1px solid #333;
+  padding: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+
+  .inputs_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 80%;
+    .input {
+      padding: 5px;
+      font-size: 1.2rem;
+    }
+  }
+  button {
+    flex: 1;
+    height: 89%;
+  }
+}
+button {
+  width: 70px;
+  // height: 40px;
+  background-color: #333; /* Pomarańczowe tło */
+  color: lime; /* Jasny tekst */
+  border: 1px solid #ff6a00; /* Ciemniejsza pomarańczowa obwódka */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition:  0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Delikatny cień */
+}
+
+/* Efekt hover - ciemniejsze tło pomarańczowe */
+button:hover {
+  border-color: #ffab40; /* Jaśniejszy pomarańczowy akcent na focus */
+  box-shadow: 0 0 10px rgba(255, 171, 64, 0.5);
+}
+
+
+/* Stan aktywności przycisku */
+button:active {
+  transform: translateY(0); /* Powrót przycisku do miejsca po kliknięciu */
+  background-color: #ff6a00;
+}
