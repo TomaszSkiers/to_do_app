@@ -1,0 +1,43 @@
+.container {
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  input {
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  button {
+    width: 70px;
+    height: 50px;
+    background-color: #333;
+    color: lime;
+    border: 1px solid #ff6a00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  .button_save {
+    color: lime;
+  }
+  .button_cancel {
+    color: red;
+  }
+
+  button:hover {
+    border-color: #ffab40;
+    box-shadow: 0 0 10px rgba(255, 171, 64, 0.5);
+  }
+
+  button:active {
+    background-color: #ff6a00;
+  }
+
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 95%;
+//  height: 40px;
+  border-bottom: 1px solid #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  input {
+    height: 30px;
+    padding: 5px;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    border: 1px solid #ff6a00;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    &:focus{
+      outline: none;
+    }
+  }
+}

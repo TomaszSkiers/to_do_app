@@ -1,0 +1,16 @@
+.container{
+    width: 95%;
+    height: 95%;
+    // border: 1px solid tomato;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title_wrapper{
+        max-width: 70%;
+    }
+    .button_wrapper{
+        display: flex;
+        gap: 2px;
+    }
+}
